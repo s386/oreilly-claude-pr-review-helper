@@ -1,7 +1,7 @@
 """Day 8: review a real pull request through GitHub's remote MCP server.
 
-    export GITHUB_TOKEN=...            # read access to the target repo is enough
-    export TARGET_REPO=your-username/oreilly-claude-review-target
+    export GITHUB_TOKEN=""           # read access to the target repo is enough
+    export TARGET_REPO="s386/oreilly-claude-review-target"
     python demos/day08_mcp.py 1        # the pull request number
 """
 import os
@@ -35,4 +35,5 @@ def review_pull_request(repo, number):
 
 
 if __name__ == "__main__":
-    review_pull_request(os.environ["TARGET_REPO"], sys.argv[1])
+    review_pull_request("s386/oreilly-claude-review-target", 1)
+    #review_pull_request(os.environ["TARGET_REPO"], sys.argv[1])
