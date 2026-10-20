@@ -9,7 +9,7 @@ import anthropic
 
 from helpers import ROOT, first_text, parse_diff
 
-MODEL = "claude-sonnet-5"
+MODEL = "claude-sonnet-5-5"
 CONFIDENCE_FLOOR = 0.7
 
 client = anthropic.Anthropic()   # reads ANTHROPIC_API_KEY

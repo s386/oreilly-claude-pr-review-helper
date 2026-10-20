@@ -1,5 +1,7 @@
 # oreilly-claude-pr-review-helper
 
+-- New branch made as temp to test PR
+
 The companion repo for **Claude Lunch & Learn: Zero to Agent in 20 Days**.
 
 You build one thing across 20 sessions: an AI code reviewer. Day 1 is a single API call against a diff. By Day 20 the same logic runs in GitHub Actions, reviews every pull request, suggests tests, and posts inline comments at the exact file and line.
